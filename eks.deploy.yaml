@@ -15,7 +15,7 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: kubernetes
+      - name: springboot-app
         image: karthikpilla/kubernetes:latest
         imagePullPolicy: Always
         ports:
