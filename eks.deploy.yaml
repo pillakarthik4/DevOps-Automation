@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: kubernetes
-        image: 211223789150.dkr.ecr.us-east-1.amazonaws.com/my-springboot-app:latest
+        image: sha256:0a01928ec0c56edb8a3de02f7089e2b3e3a941f6fe8a302d71fd0b5d3593e66c
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
